@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
    # 定时执行可参考https://tool.lu/crontab
-    - cron: 22 6 */1 * *
+    - cron: 45 9 */1 * *
  
 jobs:
   setup:
