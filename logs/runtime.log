@@ -1,52 +1,19 @@
-2023-12-23 18:28:23 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-23 18:28:33 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
-2023-12-23 18:28:35 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2023-12-23 18:28:39 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2023-12-23 18:28:39 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a smiling dog'}
-2023-12-23 18:28:40 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like smiling dog.', "This is a picture that don't look like smiling dog."], 'prompt': 'Please click each image containing a smiling dog', 'timit': '0.991s'}
-2023-12-23 18:28:51 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2023-12-23 18:29:21 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 0}
-2023-12-23 18:29:23 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2023-12-23 18:29:27 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2023-12-23 18:29:27 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images containing a liquid.'}
-2023-12-23 18:29:28 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like liquid.', "This is a picture that don't look like liquid."], 'prompt': 'Please click on all images containing a liquid.', 'timit': '0.768s'}
-2023-12-23 18:29:36 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-23 18:29:39 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click in the center of a vinyl record'}
-2023-12-23 18:29:44 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2023-12-23 18:30:14 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 1}
-2023-12-23 18:30:16 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
-2023-12-23 18:30:20 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
-2023-12-23 18:30:20 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click in the center of a vinyl record'}
-2023-12-23 18:30:25 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-23 18:30:29 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click on all images containing a liquid.'}
-2023-12-23 18:30:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like liquid.', "This is a picture that don't look like liquid."], 'prompt': 'Please click on all images containing a liquid.', 'timit': '0.728s'}
-2023-12-23 18:30:36 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-23 18:30:39 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click in the center of a vinyl record'}
-2023-12-23 18:30:45 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
-2023-12-23 18:30:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing a smiling dog'}
-2023-12-23 18:30:50 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like smiling dog.', "This is a picture that don't look like smiling dog."], 'prompt': 'Please click each image containing a smiling dog', 'timit': '0.731s'}
-2023-12-23 18:31:03 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
-2023-12-23 18:31:33 | WARNING    | epic_games.agent:authorize:266 | 执行超时 - {'task': 'authorize', 'retry': 2}
-2023-12-23 18:31:33 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3492), thread 'MainThread' (139867428965248): - {}
-Traceback (most recent call last):
-  File "/home/runner/work/free/free/epic/src/claim.py", line 162, in <module>
-    asyncio.run(run())
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/runners.py", line 44, in run
-    return loop.run_until_complete(main)
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
-    self.run_forever()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
-    self._run_once()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/base_events.py", line 1909, in _run_once
-    handle._run()
-  File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/asyncio/events.py", line 80, in _run
-    self._context.run(self._callback, *self._args)
-> File "/home/runner/work/free/free/epic/src/claim.py", line 158, in run
-    await agent.stash()
-  File "/home/runner/work/free/free/epic/src/claim.py", line 151, in stash
-    await self.claim_epic_games(context)
-  File "/home/runner/work/free/free/epic/src/claim.py", line 98, in claim_epic_games
-    if await epic.authorize(page):
-  File "/home/runner/work/free/free/epic/src/epic_games/agent.py", line 269, in authorize
-    raise RuntimeError(f"Failed to flush token - agent={self.__class__.__name__}")
-RuntimeError: Failed to flush token - agent=EpicGames
+2023-12-24 18:27:47 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-24 18:27:56 | INFO    | __main__:claim_epic_games:97 | Try to flush cookie - {'task': 'claim_epic_games'}
+2023-12-24 18:27:58 | INFO    | epic_games.agent:_login:237 | login-with-email - {'url': 'https://www.epicgames.com/id/login?lang=en-US&noHostRedirect=true&redirectUrl=https://store.epicgames.com/en-US/free-games'}
+2023-12-24 18:28:02 | DEBUG    | epic_games.agent:insert_challenge:215 | Attack challenge - {'stage': 'email_exists_prod'}
+2023-12-24 18:28:02 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image containing an object used in garden'}
+2023-12-24 18:28:03 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like object used in garden.', "This is a picture that don't look like object used in garden."], 'prompt': 'Please click each image containing an object used in garden', 'timit': '1.020s'}
+2023-12-24 18:28:12 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'email_exists_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2023-12-24 18:28:17 | DEBUG    | epic_games.agent:insert_challenge:209 | Attack challenge - {'stage': 'login_prod'}
+2023-12-24 18:28:17 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Pleaѕe click each image containing a bicycle part'}
+2023-12-24 18:28:17 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like bicycle part.', "This is a picture that don't look like bicycle part."], 'prompt': 'Pleaѕe click each image containing a bicycle part', 'timit': '0.746s'}
+2023-12-24 18:28:27 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_RETRY: 'retry'>}
+2023-12-24 18:28:30 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_parse_label:241 | get task - {'prompt': 'Please click each image сontaining an object used in garden'}
+2023-12-24 18:28:31 | DEBUG    | hcaptcha_challenger.agents.playwright.control:_catch_all_binary_challenge:474 | handle task - {'unsupervised': 'binary', 'candidate_labels': ['This is a picture that looks like object used in garden.', "This is a picture that don't look like object used in garden."], 'prompt': 'Please click each image сontaining an object used in garden', 'timit': '0.698s'}
+2023-12-24 18:28:44 | DEBUG    | epic_games.agent:insert_challenge:218 | Parse result - {'stage': 'login_prod', 'result': <Status.CHALLENGE_SUCCESS: 'success'>}
+2023-12-24 18:28:47 | SUCCESS    | epic_games.agent:_login:253 | login - {'result': 'Successfully refreshed tokens'}
+2023-12-24 18:28:58 | SUCCESS    | epic_games.agent:flush_token:280 | flush_token - {'path': PosixPath('/home/runner/work/free/free/epic/user_data_dir/epic-games@1442282810/ctx_cookie.json')}
+2023-12-24 18:28:59 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Fallout 3: Game of the Year Edition', 'url': 'https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition'}
+2023-12-24 18:28:59 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/fallout-3-game-of-the-year-edition'}
+2023-12-24 18:29:13 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
