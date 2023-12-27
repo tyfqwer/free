@@ -1,4 +1,4 @@
-2023-12-26 18:28:38 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-26 18:28:44 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': "The Outer Worlds: Spacer's Choice Edition", 'url': 'https://store.epicgames.com/en-US/p/the-outer-worlds-spacers-choice-edition'}
-2023-12-26 18:28:52 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/the-outer-worlds-spacers-choice-edition'}
-2023-12-26 18:29:05 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2023-12-27 18:29:04 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-27 18:29:10 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Human Resource Machine', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
+2023-12-27 18:29:15 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
+2023-12-27 18:29:28 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
