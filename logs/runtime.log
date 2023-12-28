@@ -1,4 +1,4 @@
-2023-12-27 18:29:04 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2023-12-27 18:29:10 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Human Resource Machine', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
-2023-12-27 18:29:15 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/human-resource-machine'}
-2023-12-27 18:29:28 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2023-12-28 18:29:05 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2023-12-28 18:29:11 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Cursed to Golf', 'url': 'https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22'}
+2023-12-28 18:29:15 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/cursed-to-golf-a6bc22'}
+2023-12-28 18:29:30 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
