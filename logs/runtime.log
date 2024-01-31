@@ -1,5 +1,5 @@
-2024-01-30 18:29:41 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
-2024-01-30 18:29:50 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
-2024-01-30 18:29:50 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Infinifactory', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-30 18:29:57 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
-2024-01-30 18:30:12 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
+2024-01-31 18:28:40 | INFO    | __main__:stash:131 | run - {'image': '20231121', 'version': '0.10.1.post2', 'role': 'EpicPlayer', 'headless': True}
+2024-01-31 18:28:48 | WARNING    | epic_games.agent:get_order_history:467 | Failed to get order history, cookie may have expired - {}
+2024-01-31 18:28:49 | DEBUG    | __main__:create_tasks:66 | Put task - {'title': 'Infinifactory', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-31 18:28:55 | INFO    | epic_games.agent:claim_weekly_games:294 | claim_weekly_games - {'action': 'go to store', 'url': 'https://store.epicgames.com/en-US/p/infinifactory-ec9686'}
+2024-01-31 18:29:10 | SUCCESS    | epic_games.agent:claim_weekly_games:314 | Pass claim task - {'reason': 'Free games not added to shopping cart'}
