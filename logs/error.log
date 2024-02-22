@@ -1,4 +1,4 @@
-2024-02-21 18:29:41 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xea in position 0: invalid continuation byte - {}
+2024-02-22 18:28:24 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xcb in position 1: invalid continuation byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/free/free/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -20,9 +20,9 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 613, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xea in position 0: invalid continuation byte
-2024-02-21 18:30:15 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
-2024-02-21 18:30:18 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xcb in position 1: invalid continuation byte
+2024-02-22 18:28:58 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-02-22 18:29:00 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xb6 in position 0: invalid start byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/free/free/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -44,8 +44,8 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 613, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0x9b in position 0: invalid start byte
-2024-02-21 18:31:01 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0x8a in position 0: invalid start byte - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb6 in position 0: invalid start byte
+2024-02-22 18:29:44 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0x8b in position 0: invalid start byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/free/free/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -67,9 +67,9 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 613, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8a in position 0: invalid start byte
-2024-02-21 18:31:35 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
-2024-02-21 18:31:38 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0x95 in position 3: invalid start byte - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x8b in position 0: invalid start byte
+2024-02-22 18:30:18 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-02-22 18:30:20 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xe6 in position 0: invalid continuation byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/free/free/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -91,8 +91,8 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 613, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0x95 in position 3: invalid start byte
-2024-02-21 18:32:21 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xb0 in position 0: invalid start byte - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe6 in position 0: invalid continuation byte
+2024-02-22 18:31:04 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/free/free/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -114,9 +114,9 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 613, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xb0 in position 0: invalid start byte
-2024-02-21 18:32:55 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
-2024-02-21 18:32:58 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xf8 in position 0: invalid start byte - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xff in position 0: invalid start byte
+2024-02-22 18:31:38 | ERROR    | hcaptcha_challenger.agents.playwright.control:execute:615 | task interrupt <backcall> - {'reason': 'Failed to obtain challenge task'}
+2024-02-22 18:31:40 | ERROR    | hcaptcha_challenger.agents.playwright.control:handler:153 | 'utf-8' codec can't decode byte 0xad in position 1: invalid start byte - {}
 Traceback (most recent call last):
   File "/home/runner/work/free/free/epic/src/claim.py", line 162, in <module>
     asyncio.run(run())
@@ -138,8 +138,8 @@ Traceback (most recent call last):
     return json.loads(await self.text())
   File "/opt/hostedtoolcache/Python/3.10.13/x64/lib/python3.10/site-packages/playwright/_impl/_network.py", line 613, in text
     return content.decode()
-UnicodeDecodeError: 'utf-8' codec can't decode byte 0xf8 in position 0: invalid start byte
-2024-02-21 18:33:27 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3712), thread 'MainThread' (140563397467008): - {}
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xad in position 1: invalid start byte
+2024-02-22 18:32:10 | ERROR    | __main__:run:158 | An error has been caught in function 'run', process 'MainProcess' (3579), thread 'MainThread' (139738048445312): - {}
 Traceback (most recent call last):
   File "/home/runner/work/free/free/epic/src/claim.py", line 151, in stash
     await self.claim_epic_games(context)
